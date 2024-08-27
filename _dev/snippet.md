@@ -39,7 +39,9 @@ nbdev_docs
 ### Build & Upload
 
 ```zsh
-nbdev_pypi 
+# Create Dist
+python -m build
+
 # To testpypi
 python3 -m twine upload --repository testpypi dist/*
 ```
