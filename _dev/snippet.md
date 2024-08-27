@@ -35,3 +35,11 @@ nbdev_test
 ```zsh
 nbdev_docs
 ```
+
+### Build & Upload
+
+```zsh
+nbdev_pypi 
+# To testpypi
+python3 -m twine upload --repository testpypi dist/*
+```

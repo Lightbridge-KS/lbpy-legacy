@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['read_text_dir', 'read_text_file']
 
-# %% ../nbs/01_fs.ipynb 4
+# %% ../nbs/01_fs.ipynb 5
 def read_text_dir(dir_path):
     import os
     from pathlib import Path
@@ -35,7 +35,7 @@ def read_text_dir(dir_path):
     return sorted_content_dict
 
 
-# %% ../nbs/01_fs.ipynb 6
+# %% ../nbs/01_fs.ipynb 7
 def read_text_file(file_path):
     from pathlib import Path
     

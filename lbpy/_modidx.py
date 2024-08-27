@@ -7,4 +7,5 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'lbpy'},
   'syms': { 'lbpy.core': {'lbpy.core.foo': ('core.html#foo', 'lbpy/core.py')},
             'lbpy.fs': { 'lbpy.fs.read_text_dir': ('fs.html#read_text_dir', 'lbpy/fs.py'),
-                         'lbpy.fs.read_text_file': ('fs.html#read_text_file', 'lbpy/fs.py')}}}
+                         'lbpy.fs.read_text_file': ('fs.html#read_text_file', 'lbpy/fs.py')},
+            'lbpy.hello': {'lbpy.hello.say_hello': ('hello.html#say_hello', 'lbpy/hello.py')}}}
