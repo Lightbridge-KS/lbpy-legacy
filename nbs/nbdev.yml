@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "lbpy"
+  site-url: "https://Lightbridge-KS.github.io/lbpy"
+  description: "Lightbridge-KS personal Python package"
+  repo-branch: main
+  repo-url: "https://github.com/Lightbridge-KS/lbpy"
