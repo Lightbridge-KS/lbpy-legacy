@@ -36,9 +36,17 @@ nbdev_test
 nbdev_docs
 ```
 
+### Bump Version
+
+```zsh
+nbdev_bump_version
+```
+
 ### Build & Upload
 
 ```zsh
+# Remove Old version
+rm -rf dist/*
 # Create Dist
 python -m build
 
