@@ -9,4 +9,5 @@ d = { 'settings': { 'branch': 'main',
             'lbpy.fs': { 'lbpy.fs.read_text_dir': ('fs.html#read_text_dir', 'lbpy/fs.py'),
                          'lbpy.fs.read_text_file': ('fs.html#read_text_file', 'lbpy/fs.py'),
                          'lbpy.fs.write_text_file': ('fs.html#write_text_file', 'lbpy/fs.py')},
-            'lbpy.hello': {'lbpy.hello.say_hello': ('hello.html#say_hello', 'lbpy/hello.py')}}}
+            'lbpy.hello': {'lbpy.hello.say_hello': ('hello.html#say_hello', 'lbpy/hello.py')},
+            'lbpy.xml': {'lbpy.xml.extract_from_tags': ('xml.html#extract_from_tags', 'lbpy/xml.py')}}}
