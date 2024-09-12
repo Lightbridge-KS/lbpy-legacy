@@ -4,13 +4,16 @@
 __all__ = ['extract_from_tags']
 
 # %% ../nbs/02_xml.ipynb 5
-def extract_from_tags(string: str, tags: str):
-     # Use regular expressions to find content between <summary> tags
+def extract_from_tags(string: str, # string to extract
+                      tags: str    # XML tags
+                      ):  
+    """Extract content inside XML tags"""
+     # Use regular expressions to find content between tags
     import re
     match = re.search(rf'<{tags}>\s*(.*?)\s*</{tags}>', string, re.DOTALL)
     if not match:
         print(f"No <{tags}> tags found in the input string.")
         return
 
-    # Extract the JSON string
+    # Return the first match string
     return  match.group(1)
