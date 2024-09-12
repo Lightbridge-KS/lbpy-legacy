@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "fs.html",
+    "href": "fs.html",
+    "title": "File System Helper",
+    "section": "",
+    "text": "source\n\n\n\n read_text_dir (dir_path)",
+    "crumbs": [
+      "File System Helper"
+    ]
+  },
+  {
+    "objectID": "fs.html#read-text-dir",
+    "href": "fs.html#read-text-dir",
+    "title": "File System Helper",
+    "section": "",
+    "text": "source\n\n\n\n read_text_dir (dir_path)",
+    "crumbs": [
+      "File System Helper"
+    ]
+  },
+  {
+    "objectID": "fs.html#read-text-file",
+    "href": "fs.html#read-text-file",
+    "title": "File System Helper",
+    "section": "Read Text File",
+    "text": "Read Text File\n\nsource\n\nread_text_file\n\n read_text_file (file_path)",
+    "crumbs": [
+      "File System Helper"
+    ]
+  },
+  {
+    "objectID": "fs.html#write-text-file",
+    "href": "fs.html#write-text-file",
+    "title": "File System Helper",
+    "section": "Write Text File",
+    "text": "Write Text File\n\nsource\n\nwrite_text_file\n\n write_text_file (text, file_path)",
+    "crumbs": [
+      "File System Helper"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "lbpy",
+    "section": "",
+    "text": "TestPyPi: https://test.pypi.org/project/lbpy",
+    "crumbs": [
+      "lbpy"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "lbpy",
+    "section": "Install",
+    "text": "Install\npip install -i https://test.pypi.org/simple/ lbpy",
+    "crumbs": [
+      "lbpy"
+    ]
+  },
+  {
+    "objectID": "xml.html",
+    "href": "xml.html",
+    "title": "XML helper",
+    "section": "",
+    "text": "source\n\n\n\n extract_from_tags (string:str, tags:str)\n\nExtract content inside XML tags\n\n\n\n\nType\nDetails\n\n\n\n\nstring\nstr\nstring to extract\n\n\ntags\nstr\nXML tags\n\n\n\n\ntext_1 = \"\"\"--- &lt;ref&gt; abcd\nefg \n&lt;/ref&gt; ---    \n\"\"\"\n\nextract_from_tags(text_1, \"ref\")\n\n'abcd\\nefg'\n\n\n\ntext_2 = \"\"\"--- &lt;ref&gt; abcd\nefg \n&lt;/ref&gt; ---  \n\n&lt;ref&gt; k &lt;/ref&gt;  \n\"\"\"\n\nextract_from_tags(text_2, \"ref\")\n\n'abcd\\nefg'\n\n\n\nmatch_2 = re.search(rf'&lt;ref&gt;\\s*(.*?)\\s*&lt;/ref&gt;', text_2, re.DOTALL)\nmatch_2.group(1)\n\n'abcd\\nefg'",
+    "crumbs": [
+      "XML helper"
+    ]
+  },
+  {
+    "objectID": "xml.html#extract-from-tags",
+    "href": "xml.html#extract-from-tags",
+    "title": "XML helper",
+    "section": "",
+    "text": "source\n\n\n\n extract_from_tags (string:str, tags:str)\n\nExtract content inside XML tags\n\n\n\n\nType\nDetails\n\n\n\n\nstring\nstr\nstring to extract\n\n\ntags\nstr\nXML tags\n\n\n\n\ntext_1 = \"\"\"--- &lt;ref&gt; abcd\nefg \n&lt;/ref&gt; ---    \n\"\"\"\n\nextract_from_tags(text_1, \"ref\")\n\n'abcd\\nefg'\n\n\n\ntext_2 = \"\"\"--- &lt;ref&gt; abcd\nefg \n&lt;/ref&gt; ---  \n\n&lt;ref&gt; k &lt;/ref&gt;  \n\"\"\"\n\nextract_from_tags(text_2, \"ref\")\n\n'abcd\\nefg'\n\n\n\nmatch_2 = re.search(rf'&lt;ref&gt;\\s*(.*?)\\s*&lt;/ref&gt;', text_2, re.DOTALL)\nmatch_2.group(1)\n\n'abcd\\nefg'",
+    "crumbs": [
+      "XML helper"
+    ]
+  },
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Hello",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody",
+    "crumbs": [
+      "Hello"
+    ]
+  }
+]
