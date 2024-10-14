@@ -5,3 +5,4 @@ website:
       - 00_hello.ipynb
       - 01_fs.ipynb
       - 02_xml.ipynb
+      - 03_docx.ipynb
